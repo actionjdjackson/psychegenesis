@@ -58,6 +58,7 @@ PsycheGenesis serves as a Spirit-led tool for personal transformation by helping
 * Emotional Processing Centers (Mind, Gut, Heart)
 * Spiritual Warfare Awareness (optional module)
 * Leadership Readiness Flags (based on maturity, not just gifting)
+* Heart Burden & Calling
 
 ## Output
 
@@ -742,5 +743,48 @@ To assess the user's understanding, sensitivity, and responsiveness to spiritual
 * Need for discipleship in spiritual authority or protection
 * Correlation with giftings (e.g., prophetic, intercessory, apostolic)
 * Recommendations for mentorship, study, or training in warfare and discernment
+
+---
+
+# Module: Heart Burden & Calling
+
+## Purpose
+
+* Surface and confirm Holy Spirit–given burdens and callings
+* Clarify emotional/spiritual passion that may guide ministry or vocation
+* Strengthen connection between personal experience, inner healing, and missional direction
+* Provide weight to role recommendations and ministry alignment
+
+## Areas Profiled
+
+* Inner Healing & Restoration
+* Prophetic Intercession
+* Worship & Creative Expression
+* Evangelism & Souls
+* Teaching & Discipleship
+* Justice & Mercy
+* Children & Next Generation
+* Marketplace Transformation
+* Global Missions
+* Apostolic Building / Strategy
+
+## Question Structure
+
+* Forced-choice primary burden selection
+* Optional ranked secondary burdens (2–4 max)
+* Each presented with a brief description and sample ministry pathways
+
+## Output
+
+* Primary burden scored highest (30–40% influence in role suggestions)
+* Secondary burdens scored lower (15–25% total influence)
+* Insight template includes narrative context, e.g., “You carry a deep burden for justice…”
+
+## Insights Generated
+
+* Integrated into Role Recommendation Engine
+* Compared with maturity level and trauma healing stage
+* Profiled in Admin Dashboard for ministry planning
+* Scriptural anchors include Nehemiah 2:12, Psalm 37:4, Jeremiah 20:9, Romans 9:2–3
 
 © 2025 Jacob Jackson
