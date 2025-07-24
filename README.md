@@ -742,3 +742,5 @@ To assess the user's understanding, sensitivity, and responsiveness to spiritual
 * Need for discipleship in spiritual authority or protection
 * Correlation with giftings (e.g., prophetic, intercessory, apostolic)
 * Recommendations for mentorship, study, or training in warfare and discernment
+
+© 2025 Jacob Jackson
