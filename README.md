@@ -1,6 +1,6 @@
 # PsycheGenesis System Overview
 
-**PsycheGenesis** is a multidimensional assessment and profiling framework crafted to map the entire human experience—spirit, soul, and body—within a biblically anchored, psychologically insightful, and scientifically informed model. It is designed to offer an integrated lens through which individuals can better grasp their unique God-given identity, spiritual development, and holistic life design. By merging theology, psychology, somatic understanding, and vocational alignment, PsycheGenesis equips users to thrive across emotional, spiritual, and practical domains.
+Created by Jacob Jackson, **PsycheGenesis** is a multidimensional assessment and profiling framework crafted to map the entire human experience—spirit, soul, and body—within a biblically anchored, psychologically insightful, and scientifically informed model. It is designed to offer an integrated lens through which individuals can better grasp their unique God-given identity, spiritual development, and holistic life design. By merging theology, psychology, somatic understanding, and vocational alignment, PsycheGenesis equips users to thrive across emotional, spiritual, and practical domains.
 
 ## Purpose
 
