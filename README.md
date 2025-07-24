@@ -25,6 +25,7 @@ PsycheGenesis serves as a Spirit-led tool for personal transformation by helping
 * ✅ **Leadership Readiness Flags**: Automatically evaluate readiness for spiritual leadership roles (e.g., pastor, elder, missionary, mentor) based on maturity indicators drawn from sanctification stage, trauma healing status, relationship health, biblical qualifications (1 Tim 3, Titus 1), emotional regulation, and gift activation. Flags can recommend waiting, preparation, or confirmation by spiritual authority.
 * ⚙️ **Role Recommendation Engine**: Calculates best-fit callings, life roles, or ministries by integrating all module outputs using weighted composite logic. It balances maturity, temperament, gifting, and healing to suggest personalized pathways forward.
 * 📖 **Narrative Synthesis Generator**: Produces a personalized, redemptive life narrative that weaves together a user’s spiritual journey, gifting, personality, sanctification stage, trauma recovery, and divine calling. The result is a reflective, hope-filled story that contextualizes how God has shaped and is shaping the user’s life purpose.
+* ⚠️ **Blind Spots & Cautions**: Designed to illuminate areas of potential imbalance, overextension, or hidden vulnerability that may not be evident through strengths-based assessments alone. It provides a redemptive lens to interpret common patterns such as over-empathy, perfectionism, impulsiveness, or avoidance, and supports growth by surfacing these traits gently and biblically.
 * 🖥️ **User Interface & Experience Flow**:
 
   * **Likert Scale Questions**: Presented as a row of circles sized from large to small to large, colored from red (big, leftmost) to gray (small, center) to green (big, rightmost). Red = “not like me at all,” gray = “neutral,” green = “totally like me.”
@@ -786,5 +787,355 @@ To assess the user's understanding, sensitivity, and responsiveness to spiritual
 * Compared with maturity level and trauma healing stage
 * Profiled in Admin Dashboard for ministry planning
 * Scriptural anchors include Nehemiah 2:12, Psalm 37:4, Jeremiah 20:9, Romans 9:2–3
+
+---
+
+# Module: Blindspots & Cautions
+
+## Purpose
+
+The Blindspots & Cautions module is designed to illuminate areas of potential imbalance, overextension, or hidden vulnerability that may not be evident through strengths-based assessments alone. It provides a redemptive lens to interpret common patterns such as over-empathy, perfectionism, impulsiveness, or avoidance, and supports growth by surfacing these traits gently and biblically.
+
+## Areas Profiled
+
+* Emotional overextension (e.g. over-empathy, people-pleasing)
+* Behavioral patterns (e.g. impulsivity, over-control)
+* Internal pressure points (e.g. perfectionism, shame-driven motivation)
+* Gift distortions (e.g. mercy without truth, leadership without humility)
+* Spiritual maturity imbalances (e.g. high zeal, low root depth)
+* Unbalanced identity traits (e.g. idealism without grounding)
+* Repetitive pain cycles (often linked to trauma, unmet needs, or inner vows)
+
+## Question Structure
+
+* **Derived Patterns**: No direct questionnaire. Blindspots are inferred through cross-metric analysis.
+* **Triggering Indicators**:
+
+  * Strengths without balancing traits (e.g. high compassion, low assertiveness)
+  * Trait clusters that signal risk (e.g. prophet + anxious attachment + high somatic tension)
+  * Spiritual gift activity that outpaces maturity or healing
+  * Trauma patterns influencing leadership drives or role aspirations
+
+## Output
+
+* **Watchpoints Section**: A dedicated portion of the final profile summary highlighting potential blindspots or cautionary patterns.
+* **Narrative Synthesis Highlights**: Integrated into the personalized life narrative as grace-filled insights for discipleship and spiritual growth.
+* **Administrative View**: Caution flags visible to counselors, coaches, or mentors to support redemptive conversations.
+
+## Insights Generated
+
+Each blindspot is framed with affirmation, clarity, and an invitation to growth:
+
+* **Over-Empathy**: "Your gift of mercy is a blessing. To sustain your calling, the Lord may be inviting you into stronger boundaries and Spirit-led discernment."
+
+* **Perfectionism**: "You carry high standards that reflect God's excellence. But He may be calling you to embrace grace in progress, not just outcomes."
+
+* **Impulsiveness**: "Your boldness is a strength. Slowing down for spiritual discernment may help you avoid unnecessary detours."
+
+* **Avoidant Tendencies**: "Your desire for peace is good. But God may be drawing you into deeper healing where fear has held you back."
+
+* **Over-Identification with Role or Gift**: "Your calling is powerful, but your identity is first as a child of God—not your ministry function."
+
+This module supports transformation not by shaming, but by shining light in love—encouraging repentance, healing, and wise stewardship of one’s wiring and walk.
+
+---
+
+# Module: Calling Readiness (Inferred)
+
+## Purpose
+
+To assess whether a user is currently ready to step into their divine calling, ministry assignment, or vocational purpose. This module does not rely on direct questioning but is inferred through integrated analysis of spiritual maturity, emotional healing, and gifting activation.
+
+## Areas Profiled
+
+* Sanctification & Spiritual Growth Stage
+* Trauma History & Healing Progress
+* Fivefold Ministry Gift Activation
+* Heart Burden / Calling Priorities
+* Leadership Readiness Flags
+* Timeline & Spiritual Milestones
+
+## Question Structure
+
+*Inferred module — no direct question set.* Instead, it draws from:
+
+* Questionnaire outputs across spiritual gifts, growth, and leadership indicators
+* Timeline entries related to calling, surrender, and prophetic confirmations
+* Healing history and current restoration status
+
+## Output
+
+* Readiness Tier: **"Future Calling / Preparation Mode," "Emerging Calling / Transitional Season," or "Active Calling / Confirmation Stage"**
+* Barriers to Readiness: Highlights key blockers such as unhealed trauma, relationship immaturity, spiritual dryness, or undeveloped fruit of the Spirit
+* Acceleration Paths: Suggestions for mentoring, discipleship, healing, or confirmation practices to help align the user with God’s timing
+
+## Insights Generated
+
+* "You carry a strong teaching and pastoral gifting, but your sanctification profile suggests this is a season of preparation and inner healing rather than immediate leadership."
+* "Based on your gifting activation, timeline entries, and confirmed leadership traits, you may be in a season of vocational emergence. Seek confirmation through trusted mentors."
+* "You’ve experienced a divine calling moment and have matured significantly. Your readiness profile indicates you’re prepared to walk in that calling with humility and faith."
+
+This module feeds into the **Leadership Readiness Flags** and **Role Recommendation Engine**, ensuring no premature recommendations are made for users who are not spiritually or emotionally prepared for high-stakes roles.
+
+---
+
+# Module: Character & Gifting Alignment Index
+
+## Purpose
+
+The **Character & Gifting Alignment Index** evaluates the relationship between a user’s **spiritual maturity (fruit)** and **spiritual giftedness (function)**. It determines whether a person’s **influence is safely grounded in godly character**, or whether their gifting outpaces their maturity—highlighting risks and discipleship needs. This module helps ensure that individuals steward their gifts **with wisdom, humility, and spiritual integrity**.
+
+## Areas Profiled
+
+* Spiritual Fruit Maturity (Galatians 5:22–23)
+* Spiritual Gifts (power, revelatory, and motivational)
+* Fivefold Ministry Callings
+* Sanctification & Growth Stage
+* Healing History, Inner Vows, and Trauma Recovery
+
+## Question Structure
+
+This module is **inferred**, not directly assessed. It draws composite insights from:
+
+* Fruit maturity indicators (from Sanctification & Spiritual Growth)
+* Gifting strength and influence level (from Spiritual Gifts and Fivefold Modules)
+* Signs of unresolved wounds or adaptive behavior (from Healing History and Inner Vows)
+
+## Composite Scoring Logic
+
+The scoring algorithm cross-references:
+
+* **Gift Intensity Score**: Based on strength, breadth, and leadership implications of spiritual gifts.
+* **Fruit Maturity Score**: Aggregated from sanctification metrics and fruit-aligned behaviors.
+* **Character Gap Score**: Difference between Gift and Fruit scores.
+* **Healing Alignment Modifier**: Adjusts based on unhealed trauma or unresolved inner vows.
+
+### Scoring Tiers
+
+| Alignment Tier         | Description                                                                               |
+| ---------------------- | ----------------------------------------------------------------------------------------- |
+| **Well-Aligned**       | Strong gifting matched by strong spiritual maturity. Safe influence.                      |
+| **Emerging Alignment** | Gifts developing alongside growing character. Mentorship recommended.                     |
+| **Gift > Character**   | Risk of pride, wounding others, or spiritual burnout. Growth needed.                      |
+| **Stunted Gifting**    | High fruit maturity but suppressed gifting due to fear or past pain. Needs encouragement. |
+
+## Output & Insights Generated
+
+* 📊 Gifting vs. Character ratio and alignment score
+* 🔎 Narrative insight on maturity-readiness for influence
+* ⚠️ Flagged risks of spiritual immaturity
+* 🙌 Encouragement to either steward gifts more boldly or slow down and focus on growth
+* 📖 Scripture-based guidance (e.g., 1 Corinthians 13, James 3:13–18, Matthew 7:16)
+
+---
+
+# Module: Identity Wholeness Score
+
+## Purpose
+
+The Identity Wholeness Score is an **inferred composite metric** designed to reflect a user’s core sense of self, resilience, and integration of past wounds with present truth. It helps surface whether the user operates from their **God-given identity** or from an adaptive/false self shaped by trauma, fear, or societal expectation.
+
+It is not a directly assessed module. Instead, it draws input from multiple assessed modules to estimate a person’s **identity cohesion, authenticity, and narrative integrity.**
+
+## Inputs (Inferred From Assessed Modules)
+
+* **Sanctification & Spiritual Growth**: maturity, spiritual rootedness, fruit of the Spirit.
+* **Healing History & Inner Vows**: resolution of shame, self-perception, false identity patterns.
+* **Relationship & Attachment Style**: emotional congruence, boundary clarity, secure base.
+* **Calling Readiness** *(inferred)*: conviction, value consistency, non-performance identity.
+* **Trauma Recovery & Somatic Awareness**: ability to differentiate true self from adaptive self.
+
+## Realigned Question Mapping (From Other Modules)
+
+These identity-based insights are gathered from other modules, where the questions are assessed:
+
+| Statement                                                                | Assessed Module                        |
+| ------------------------------------------------------------------------ | -------------------------------------- |
+| “I feel like I know who I truly am even when circumstances change.”      | Sanctification & Spiritual Growth      |
+| “I can speak honestly about my failures without shame.”                  | Healing History & Restoration Pathways |
+| “My values stay consistent regardless of the group I’m with.”            | Sanctification & Spiritual Growth      |
+| “I no longer feel the need to pretend or prove myself to others.”        | Trauma Recovery / Inner Vows           |
+| “I feel like the same person whether I’m alone or in public.”            | Relationship & Attachment Style        |
+| “I know the difference between my true self and my trauma-adapted self.” | Trauma Recovery / Healing History      |
+
+## Composite Scoring Logic
+
+The Identity Wholeness Score uses a **weighted composite system**, balancing the following dimensions:
+
+* ✅ Authenticity & Non-Performance Identity (Calling + Attachment)
+* ✅ Shame Resolution & Emotional Transparency (Healing + Relationship)
+* ✅ Consistent Moral Compass & Conviction (Sanctification + Heart Burden)
+* ✅ Differentiation of True vs. False Self (Healing + Somatic Awareness)
+* ✅ Resilience & Continuity Under Pressure (Sanctification + Timeline)
+
+**Scoring Tiers:**
+
+* **Integrated (80–100%)**: High authenticity, spiritual and emotional coherence, healthy vulnerability.
+* **Emerging (60–79%)**: Progressing in self-understanding, with some areas of masking or disconnection.
+* **Fragmented (0–59%)**: Significant masking, unresolved wounds, or identity defined by external factors.
+
+## Insights Generated
+
+* 💡 Narrative summary of the user’s identity development journey.
+* 🪞 Highlighted themes of growth, stability, and integration.
+* ⚠️ Identity cautions such as perfectionism, codependency, or shape-shifting for approval.
+* 📖 Scriptural encouragements around identity (e.g., Psalm 139, Ephesians 1, Romans 8).
+* 🛠️ Suggestions for healing, spiritual anchoring, and living from the true self.
+
+---
+
+# Module: Spiritual Maturity Trajectory
+
+## Purpose
+
+The **Spiritual Maturity Trajectory** module is designed to infer and visualize a user’s long-term sanctification journey, identifying patterns of growth, stagnation, revival, and transformation over time. It offers a narrative-informed and biblically grounded perspective on the believer’s ongoing formation into Christlikeness.
+
+## Areas Profiled
+
+* Past growth milestones and setbacks
+* Breakthroughs, plateaus, and renewal cycles
+* Historical fruit of the Spirit development
+* Persistence through trials and testing
+* Historical patterns of obedience, repentance, and faith
+* Influence of spiritual mentors, community, and discipline
+
+## Question Structure
+
+* No direct questionnaire
+* Inferred through cross-analysis of:
+
+  * Timeline & Spiritual Milestones module
+  * Healing History & Restoration module
+  * Sanctification & Growth Stage assessment
+  * Narrative synthesis inputs
+  * Leadership readiness indicators
+  * Journaled turning points (if included)
+
+## Output
+
+* Visual maturity arc (timeline chart or narrative diagram)
+* Categorization into trajectory types (e.g., Steady Climber, Late Bloomer, Flame Then Fizzle, Long Obedience, Healing-Centered Growth)
+* Flags for potential spiritual plateaus or breakthrough readiness
+
+## Insights Generated
+
+* Offers encouragement or exhortation based on past growth and patterns
+* Helps pastoral mentors or counselors understand a person’s spiritual development history
+* Suggests optimal next steps or practices for maturity acceleration (e.g., deeper study, community accountability, solitude)
+* Identifies long-standing wounds that may inhibit growth despite outward faithfulness
+
+---
+
+# Module: Spiritual Health Index (Inferred)
+
+## Purpose
+
+To provide a snapshot-style, cross-dimensional indicator of the user’s overall spiritual well-being, vitality, and alignment with biblical rhythms of life. The Spiritual Health Index is like a real-time pulse check on the soul’s nourishment, alertness, and submission to the Holy Spirit, derived from multiple other inputs across the PsycheGenesis system.
+
+## Areas Profiled
+
+* Timeline Recency of Key Events (e.g. recent revival, baptism, repentance, guidance received)
+* Frequency and Impact of Healing Milestones
+* Emotional Regulation Scores
+* Relationship and Attachment Style Health
+* Fruit of the Spirit Development (inferred from growth, relational, and trauma/healing metrics)
+* Somatic Awareness and Restorative Rhythms
+* Worship, Prayer, and Discipleship-Related Timeline Entries
+
+## Question Structure
+
+*Inferred module — no dedicated question set.* Derived from:
+
+* Response patterns across sanctification, healing, and somatic/emotional modules
+* Recency of spiritual activity and timeline confirmations
+* Balance between output (ministry, calling) and input (nourishment, rest, worship)
+
+## Output
+
+* Indexed Score: **"Low," "Developing," "Moderate," "Strong," or "Flourishing"**
+* Highlighted Deficiencies: e.g. emotional fatigue, spiritual dryness, disconnection from community, lack of input rhythms
+* Strength Indicators: e.g. consistent prayer life, healing integration, spiritual renewal markers
+* Recommendations: re-engage in spiritual disciplines, seek prayer/ministry, prioritize spiritual rest, etc.
+
+## Insights Generated
+
+* "You are flourishing in many areas of spiritual vitality, especially in relational depth and prophetic awareness, though your rest rhythms may be lagging."
+* "Your score suggests a developing stage, with recent healing breakthroughs but signs of spiritual fatigue. Now is a good time to rest and be poured into."
+* "Low input rhythms and a long gap since your last major milestone suggest potential dryness. Consider a renewal retreat or extended time in the Word and worship."
+
+---
+
+## Relationship to Spiritual Maturity Trajectory
+
+* **Spiritual Health Index** is a *present-tense snapshot*, assessing how spiritually "nourished" and balanced a user currently is.
+* **Spiritual Maturity Trajectory** (to be documented next) will be a *longitudinal, growth-oriented model*, tracing how a user has progressed (or regressed) over time through distinct stages of sanctification, transformation, and equipping.
+
+They are **not mutually exclusive**. Rather, they **complement each other**:
+
+* A user may be spiritually mature (long-term growth) but in a season of spiritual dryness (low spiritual health).
+* Or a user may have high vitality right now (strong health), but be early in their faith journey (immature trajectory).
+
+Both are needed for a full picture of current spiritual formation and future direction.
+
+---
+
+# Module: Vocational Clarity Profile
+
+## Purpose
+
+The **Vocational Clarity Profile** is an **inferred composite module** that synthesizes a wide range of data points to help identify an individual’s readiness and alignment for vocational direction. It does not ask direct questions but instead integrates inputs from across the PsycheGenesis assessment to surface calling clarity, strength of vocational convictions, and internal alignment between design and direction.
+
+This module helps users answer questions like:
+
+* "Do I know the kind of work or mission I’m called to pursue?"
+* "Is my current path in alignment with how God designed me?"
+
+## Areas Profiled
+
+* Calling conviction and directionality
+* Confidence in purpose and design
+* Alignment between personality, gifting, values, and vocational role
+* Resistance or avoidance patterns (e.g., fear, indecision, false humility)
+
+## Question Structure
+
+This module does **not** include direct questions. All inputs are derived from responses in other modules and assessment behaviors.
+
+## Inputs (Inferred From Other Modules)
+
+* **Motivational Gifts**: reveals natural tendencies and foundational design.
+* **Spiritual Gifts (Holy Spirit)**: surfaces areas of divine empowerment.
+* **Fivefold Ministry Gifts**: offers clarity on spiritual roles and leadership callings.
+* **Personality Type**: cognitive and behavioral tendencies that influence work style.
+* **Job Preference Profile**: preferred types of work and environments.
+* **Heart Burden & Calling**: passion-driven direction and burden clarity.
+* **Sanctification & Spiritual Growth**: maturity level related to obedience in calling.
+* **Leadership Readiness**: inferred indicators of maturity, humility, and service.
+* **Trauma History & Healing**: areas where unresolved fear or hurt may hinder clarity or boldness.
+
+## Composite Scoring Logic
+
+Vocational clarity is assessed across several converging vectors:
+
+* 🎯 **Directional Clarity** (Calling + Gifts + Heart Burden alignment)
+* 🧭 **Identity Alignment** (Vocational role matches personality and design)
+* 🌱 **Readiness & Maturity** (Obedience to calling, not just awareness)
+* 🪨 **Barriers to Clarity** (Fear, trauma, false humility, inner vows)
+
+Each factor contributes to a composite score tier:
+
+* **Strongly Aligned**: Clear sense of vocational purpose, integrated identity and calling.
+* **Emerging Clarity**: Recognizing calling but not fully aligned in action or confidence.
+* **Obscured**: Low clarity or confidence, likely due to fear, confusion, or identity disruption.
+
+## Output & Insights Generated
+
+* 🧩 Narrative synthesis of vocational direction and purpose design.
+* 🔍 Identified alignment between personality, gifting, and mission.
+* 🚧 Barriers or hesitations blocking clarity.
+* 🔥 Scriptural encouragement and calling affirmations.
+* 🎯 Next steps for vocational discernment or confirmation.
+
+---
 
 © 2025 Jacob Jackson
