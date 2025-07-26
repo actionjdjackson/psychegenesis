@@ -27,13 +27,13 @@ export default function HomePage() {
 
 
   return (
-    <div className="relative min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-amber-100 to-white px-6">
+    <div className="relative min-h-screen flex-col items-center justify-center bg-gradient-to-b from-amber-100 to-white px-6">
 
       {/* Watermark background image */}
       <img
         src={logo_large}
         alt="PsycheGenesis Watermark"
-        className="absolute opacity-10 w-[600px] h-[600px] object-contain pointer-events-none select-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+        className="absolute opacity-10 w-[1024px] h-[1024px] object-contain pointer-events-none select-none top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
       />
 
       {/* Foreground content */}
@@ -53,7 +53,7 @@ export default function HomePage() {
         </p>
 
         <p className="text-lg text-gray-700 max-w-xl mx-auto mb-6">
-          Discover how your personality, identity, calling, gifts, and growth journey come together into a
+          Discover how your personality, identity, physical/genetic dynamics, calling, gifts, and growth journey come together into a
           unified profile. Based on biblical wisdom, psychology, and spiritual insight.
         </p>
 
@@ -72,7 +72,7 @@ export default function HomePage() {
   </p>
   <div className="flex space-x-8 text-md text-amber-600">
     <a href="/about" className="hover:underline">About</a>
-    <a href="/docs" className="hover:underline">Docs</a>
+    <a href="/docs/index.html" className="hover:underline" rel="noopener noreferrer">Docs</a>
     <a href="/privacy" className="hover:underline">Privacy Policy</a>
   </div>
 

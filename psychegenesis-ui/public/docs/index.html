@@ -1,0 +1,1594 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>Documentation | PsycheGenesis</title>
+
+
+<style type="text/css">
+
+footer {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+
+kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb
+}
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+  body {
+    padding: 2cm;
+  }
+}
+</style>
+
+<style type="text/css">
+/**
+ * prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: black;
+	background: none;
+	text-shadow: 0 1px white;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+code[class*="language-"]::selection, code[class*="language-"] ::selection {
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+@media print {
+	code[class*="language-"],
+	pre[class*="language-"] {
+		text-shadow: none;
+	}
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #f5f2f0;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: slategray;
+}
+
+.token.punctuation {
+	color: #999;
+}
+
+.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #905;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #690;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+	color: #a67f59;
+	background: hsla(0, 0%, 100%, .5);
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+	color: #07a;
+}
+
+.token.function {
+	color: #DD4A68;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+	color: #e90;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+</style>
+
+
+</head>
+
+<body>
+
+  <a href="/"><img src="psychegenesislogo.png" class="center"></a>
+
+<h1 id="toc_0">PsycheGenesis System Overview</h1>
+
+<p>Created by Jacob Jackson, <strong>PsycheGenesis</strong> is a multidimensional assessment and profiling framework crafted to map the entire human experience—spirit, soul, and body—within a biblically anchored, psychologically insightful, and scientifically informed model. It is designed to offer an integrated lens through which individuals can better grasp their unique God-given identity, spiritual development, and holistic life design. By merging theology, psychology, somatic understanding, and vocational alignment, PsycheGenesis equips users to thrive across emotional, spiritual, and practical domains.</p>
+
+<h2 id="toc_1">Purpose</h2>
+
+<p>PsycheGenesis serves as a Spirit-led tool for personal transformation by helping users:</p>
+
+<ul>
+<li>Uncover their spiritual gifts, personality patterns, temperament, and calling.</li>
+<li>Reflect deeply on their journey of sanctification, healing, and soul restoration.</li>
+<li>Understand the shaping influence of genetics, temperament, trauma, upbringing, and spiritual milestones.</li>
+<li>Connect emotional and somatic awareness with spiritual development and behavioral change.</li>
+<li>Integrate biblical discipleship with neuroscience, identity theory, and growth psychology into a redemptive understanding of the human self.</li>
+<li>Align vocational pathways and spiritual callings to how a person is uniquely wired in both divine gifting and natural temperament.</li>
+<li>Recognize potential leadership readiness based on biblical maturity, not merely charisma or outward qualifications.</li>
+</ul>
+
+<h2 id="toc_2">Key Features</h2>
+
+<ul>
+<li>🔍 <strong>Integrated Assessment Engine</strong>: All modules feed into a unified profile with randomized question delivery, adaptive scoring, milestone triggers, and trauma-aware pacing logic.</li>
+<li>🧠 <strong>Mind-Gut-Heart Axis</strong>: Captures embodied emotional experience, intuitive knowing, and neuro-emotional processing across the primary centers of internal awareness.</li>
+<li>🕊️ <strong>Spiritual Timeline Builder</strong>: Enables users to map key spiritual events such as salvation, water and Spirit baptism, moments of calling, breakthrough, inner healing, and spiritual gift activation.</li>
+<li>💡 <strong>Role Recommendations</strong>: Suggests biblically grounded roles, ministries, and vocations based on sanctification stage, character, temperament, relational maturity, gifting profile, and leadership development.</li>
+<li>🔥 <strong>Healing &amp; Restoration Insights</strong>: Tracks trauma exposure, inner vows, body memory, emotional regulation issues, and healing recovery pathways—offering grace-filled reflection and redemptive re-narration.</li>
+<li>🧩 <strong>Composite Profile System</strong>: Normalizes and integrates insights across multiple assessment streams, offering a coherent, Spirit-led, and psychologically grounded story of the whole person.</li>
+<li>✅ <strong>Leadership Readiness Flags</strong>: Automatically evaluate readiness for spiritual leadership roles (e.g., pastor, elder, missionary, mentor) based on maturity indicators drawn from sanctification stage, trauma healing status, relationship health, biblical qualifications (1 Tim 3, Titus 1), emotional regulation, and gift activation. Flags can recommend waiting, preparation, or confirmation by spiritual authority.</li>
+<li>⚙️ <strong>Role Recommendation Engine</strong>: Calculates best-fit callings, life roles, or ministries by integrating all module outputs using weighted composite logic. It balances maturity, temperament, gifting, and healing to suggest personalized pathways forward.</li>
+<li>📖 <strong>Narrative Synthesis Generator</strong>: Produces a personalized, redemptive life narrative that weaves together a user’s spiritual journey, gifting, personality, sanctification stage, trauma recovery, and divine calling. The result is a reflective, hope-filled story that contextualizes how God has shaped and is shaping the user’s life purpose.</li>
+<li>⚠️ <strong><a href="blindspots-cautions.html">Blindspots &amp; Cautions</a></strong>: Designed to illuminate areas of potential imbalance, overextension, or hidden vulnerability that may not be evident through strengths-based assessments alone. It provides a redemptive lens to interpret common patterns such as over-empathy, perfectionism, impulsiveness, or avoidance, and supports growth by surfacing these traits gently and biblically.</li>
+<li><p>🖥️ <strong>User Interface &amp; Experience Flow</strong>:</p>
+
+<ul>
+<li><strong>Likert Scale Questions</strong>: Presented as a row of circles sized from large to small to large, colored from red (big, leftmost) to gray (small, center) to green (big, rightmost). Red = “not like me at all,” gray = “neutral,” green = “totally like me.”</li>
+<li><strong>Yes/No Questions</strong>: Displayed as neutral Y and N radio-button options with no color or symbol bias to avoid influencing response valence, especially for trauma- or vulnerability-related questions.</li>
+<li><strong>Question Pagination</strong>: Assessment flows in randomized order, 5–10 questions per page. Trauma and healing-related questions appear at the end in an intentional progression from surface-level to deeper reflection.</li>
+<li><strong>Timeline Builder</strong>: Isolated on its own page with flexible placement (beginning, midpoint, or end) depending on assessment flow configuration. Midpoint is often optimal to provide narrative context without overwhelming users upfront.</li>
+</ul></li>
+<li><p>📊 <strong>Administrative &amp; Counselor Dashboard</strong>: Enables authorized facilitators, coaches, or pastoral counselors to:</p>
+
+<ul>
+<li>View user profiles, scores, growth stage summaries, and redemptive narratives.</li>
+<li>Filter and tag users by spiritual maturity, leadership readiness, trauma recovery stage, or gifting category.</li>
+<li>Export anonymized data for aggregate insights, program tailoring, or church ministry planning.</li>
+<li>Set follow-up actions or notes for discipleship, mentorship, or spiritual formation.</li>
+<li>Grant or restrict module access depending on user role (e.g., pastoral vs. layperson).</li>
+</ul></li>
+</ul>
+
+<h2 id="toc_3">Major Categories Assessed</h2>
+
+<ul>
+<li>Personality Type (MBTI-style / NERIS with optional Assertive vs. Turbulent identity)</li>
+<li>Job Preference / Holland Code</li>
+<li>Motivational Gifts (Romans 12)</li>
+<li>Spiritual Gifts (1 Cor 12)</li>
+<li>Fivefold Ministry Callings (Ephesians 4)</li>
+<li>Birth Order &amp; Family Dynamics</li>
+<li>Sanctification &amp; Spiritual Growth Stages</li>
+<li>Trauma History &amp; Inner Vows</li>
+<li>Conflict Resolution Style</li>
+<li>Relationship &amp; Attachment Style</li>
+<li>Temperament &amp; Genetic Traits (e.g., sensitivity, metabolism, circadian rhythm)</li>
+<li>Somatic Awareness &amp; Movement Preferences</li>
+<li>Learning Styles (VARK + Multiple Intelligences)</li>
+<li>Optional Enneagram Input (for interpretive context only)</li>
+<li>Emotional Processing Centers (Mind, Gut, Heart)</li>
+<li>Spiritual Warfare Awareness (optional module)</li>
+<li>Leadership Readiness Flags (based on maturity, not just gifting)</li>
+<li>Heart Burden &amp; Calling</li>
+<li>Optional IQ Test Results Input</li>
+<li>Optional EQ Test Results Input, Otherwise Derived (<a href="#derived-modules">see below</a>)</li>
+</ul>
+
+<h2 id="toc_4">Output</h2>
+
+<ul>
+<li>🎯 <strong>Profile Summary</strong>: Tiered and narrative-based insights for each category, including growth stage, gifting strength, leadership readiness, and emotional resilience.</li>
+<li>📊 <strong>Composite Scoring</strong>: Logic-weighted analysis of spiritual gift dominance, character maturity, trauma modifiers, healing progress, and role readiness.</li>
+<li>🧩 <strong>Role Fit Suggestions</strong>: Suggests fitting life roles, callings, ministries, and leadership pathways based on composite maturity, personality, gifting, and growth stage.</li>
+<li>✨ <strong>Personalized Redemptive Narrative</strong>: A cohesive, biblically inspired life story weaving spiritual formation, personality design, and divine purpose into a healing-centered worldview.</li>
+</ul>
+
+<hr>
+
+<h1 id="toc_5">PsycheGenesis System Architecture</h1>
+
+<p>The PsycheGenesis architecture is modular, extensible, and optimized for deep personalization and responsive spiritual insight. Each layer is engineered to support cross-category logic and real-time synthesis of user input.</p>
+
+<h2 id="toc_6">Core Components</h2>
+
+<h3 id="toc_7">1. <strong>Assessment Engine</strong></h3>
+
+<ul>
+<li>Dynamically renders randomized questions to reduce bias</li>
+<li>Calibrates adaptive scoring weights based on response type and context</li>
+<li>Flags milestones, spiritual turning points, or trauma indicators during input</li>
+<li>Supports conditional branching logic (e.g. trauma-aware pacing, sanctification-gated leadership paths)</li>
+</ul>
+
+<h3 id="toc_8">2. <strong>Profile Context Layer</strong></h3>
+
+<ul>
+<li>Stores all user responses as unified structured data</li>
+<li>Tracks cross-category insights (e.g. correlations between trauma and personality)</li>
+<li>Manages timeline sequencing and growth-stage mapping</li>
+<li>Hosts global profile variables used across modules (e.g., age, conversion experience, calling, maturity level)</li>
+</ul>
+
+<h3 id="toc_9">3. <strong>Scoring &amp; Insight Engine</strong></h3>
+
+<ul>
+<li>Applies normalized weightings across all categories</li>
+<li>Handles tie-break logic using secondary factors like birth order or trauma modifiers</li>
+<li>Computes stages of spiritual growth, personality derivation, and somatic-emotional alignment</li>
+<li>Generates multi-layered insights and appropriate role-fit outcomes</li>
+</ul>
+
+<h3 id="toc_10">4. <strong>Timeline Module</strong></h3>
+
+<ul>
+<li>Chronologically maps spiritual and psychological milestones</li>
+<li>Interactive UI for drag-drop milestone ordering</li>
+<li>Integrates with sanctification analysis, trauma overlays, and growth phase timelines</li>
+</ul>
+
+<h3 id="toc_11">5. <strong>Narrative Generator</strong></h3>
+
+<ul>
+<li>Synthesizes user profile data into a redemptive life story</li>
+<li>Leverages templates with variable interpolation for spiritual depth and psychological nuance</li>
+<li>Highlights before-and-after contrasts in healing, salvation, and growth moments</li>
+</ul>
+
+<h3 id="toc_12">6. <strong>UI Layer</strong></h3>
+
+<ul>
+<li>React-based interface built for modularity and mobile-first use</li>
+<li>Interactive assessment flow with inline guidance and visual feedback</li>
+<li>Supports timeline builder, visual scoring summaries, and profile export tools</li>
+</ul>
+
+<h3 id="toc_13">7. <strong>Data Model &amp; Schema</strong></h3>
+
+<ul>
+<li>Centralized JSON schema for representing assessment questions, response formats, profile structure, and scoring outputs</li>
+<li>Includes optional external inputs (e.g. MBTI code, Enneagram type, Holland code)</li>
+<li>Built to support both in-browser interaction and persistent backend storage</li>
+</ul>
+
+<hr>
+
+<h1 id="assessment-modules">Assessment Modules</h1>
+<ul>
+  <li><a href="#toc_14">Personality Type</a></li>
+  <li><a href="#toc_20">Motivational Gifts</a></li>
+  <li><a href="#toc_27">Job Preference</a></li>
+  <li><a href="#toc_33">Spiritual Gifts</a></li>
+  <li><a href="#toc_39">Fivefold Ministry Callings</a></li>
+  <li><a href="#toc_45">Birth Order &amp; Family Dynamics</a></li>
+  <li><a href="#toc_51">Learning Styles</a></li>
+  <li><a href="#toc_57">Conflict Resolution Style</a></li>
+  <li><a href="#toc_63">Sanctification &amp; Spiritual Growth</a></li>
+  <li><a href="#toc_69">Relationship &amp; Attachment Style</a></li>
+  <li><a href="#toc_75">Mind-Gut-Heart Axis</a></li>
+  <li><a href="#toc_81">Somatic Awareness &amp; Movement Preferences</a></li>
+  <li><a href="#toc_87">Temperament & Genetic Traits</a></li>
+  <li><a href="#toc_93">Trauma History & Inner Vows</a></li>
+  <li><a href="#toc_99">Healing History &amp; Restoration Pathways</a></li>
+  <li><a href="#toc_105">Timeline &amp; Spiritual Milestones</a></li>
+  <li><a href="#toc_111">Optional Enneagram Input</a></li>
+  <li><a href="#toc_117">Spiritual Warfare Awareness</a></li>
+  <li><a href="#toc_123">Heart Burden &amp; Calling</a></li>
+  <li><a href="spiritual-disciplines.html">Spiritual Disciplines Practice</a></li>
+</ul>
+
+<h1 id="derived-modules">Derived Modules</h1>
+<ul>
+  <li><a href="blindspots-cautions.html">Blindspots &amp; Cautions</a></li>
+  <li><a href="calling-readiness.html">Calling Readiness</a></li>
+  <li><a href="spiritual-health-index.html">Spiritual Health Index</a></li>
+  <li><a href="spiritual-maturity-trajectory.html">Spiritual Maturity Trajectory</a></li>
+  <li><a href="identity-wholeness.html">Identity Wholeness Score</a></li>
+  <li><a href="vocational-clarity.html">Vocational Clarity Profile</a></li>
+  <li><a href="character-gifting-alignment.html">Character &amp; Gifting Alignment</a></li>
+  <li><a href="false-self-detection.html">False Self Detection</a></li>
+  <li><a href="emotional-intelligence.html">Emotional Intelligence (EQ)</a></li>
+  <li><a href="faithfulness-over-time.html">Faithfulness Over Time</a></li>
+  <li><a href="wisdom-index.html">Wisdom Index</a></li>
+</ul>
+
+<hr>
+
+<h1 id="toc_14">Module: Personality Type (MBTI-style / NERIS)</h1>
+
+<h2 id="toc_15">Purpose</h2>
+
+<p>To assess the user&#39;s fundamental personality dynamics across cognitive, emotional, social, and decision-making dimensions using the classic MBTI framework, with NERIS model integration (Assertive vs. Turbulent identity modifier).</p>
+
+<h2 id="toc_16">Core Dimensions</h2>
+
+<ul>
+<li><strong>Introversion (I) / Extraversion (E)</strong></li>
+<li><strong>Sensing (S) / Intuition (N)</strong></li>
+<li><strong>Thinking (T) / Feeling (F)</strong></li>
+<li><strong>Judging (J) / Perceiving (P)</strong></li>
+<li><strong>Assertive (A) / Turbulent (T)</strong> (optional from external input)</li>
+</ul>
+
+<h2 id="toc_17">Question Structure</h2>
+
+<ul>
+<li>3–5 randomized questions per axis (up to 20 total)</li>
+<li>Scoring logic infers the 4-letter MBTI type through response weighting</li>
+<li>Optional: allow the user to manually input a known 16personalities result</li>
+</ul>
+
+<h2 id="toc_18">Output</h2>
+
+<ul>
+<li>MBTI Type (e.g. ENFP)</li>
+<li>Identity modifier (e.g. ENFP-T or ENFP-A)</li>
+<li>Strength of preference along each axis (e.g. E: 62%, I: 38%)</li>
+<li>Insight interpretation with spiritual and relational applications</li>
+</ul>
+
+<h2 id="toc_19">Insights Generated</h2>
+
+<ul>
+<li>Core personality type profile</li>
+<li>Communication style</li>
+<li>Emotional processing orientation</li>
+<li>Leadership and collaboration strengths</li>
+<li>Watchpoints for spiritual growth and interpersonal maturity</li>
+</ul>
+
+<a href="#assessment-modules">Back To Module List</a>
+
+<hr>
+
+<h1 id="toc_20">Module: Motivational Gifts (Romans 12)</h1>
+
+<h2 id="toc_21">Purpose</h2>
+
+<p>To help users identify their innate creational gifts—often referred to as motivational or redemptive gifts—based on Romans 12:6–8. These are the foundational drivers of behavior and perspective that shape each person’s calling, strengths, and service preferences.</p>
+
+<h2 id="toc_22">Seven Gifts Profiled</h2>
+
+<ol>
+<li><strong>Prophecy</strong> – Discerns truth and sees into people’s motives and direction.</li>
+<li><strong>Serving</strong> – Finds fulfillment in practical acts of help and behind-the-scenes work.</li>
+<li><strong>Teaching</strong> – Desires to understand and explain truth with clarity and accuracy.</li>
+<li><strong>Exhortation</strong> – Encourages others to grow, change, and overcome challenges.</li>
+<li><strong>Giving</strong> – Finds joy in supplying resources and investing in kingdom work.</li>
+<li><strong>Leadership</strong> – Sees the big picture and naturally organizes people and systems.</li>
+<li><strong>Mercy</strong> – Feels deep compassion and responds to emotional and spiritual needs.</li>
+</ol>
+
+<h2 id="toc_23">Question Structure</h2>
+
+<ul>
+<li>5 questions per gift (35 total)</li>
+<li>Likert scale (1–5) agreement responses</li>
+<li>Scoring emphasizes consistency across items to reveal primary and secondary gifts</li>
+</ul>
+
+<h2 id="toc_24">Output</h2>
+
+<ul>
+<li>Primary motivational gift (e.g. Teaching)</li>
+<li>Secondary gift(s) and strength distribution across all seven</li>
+<li>Role suitability and team contribution insights</li>
+</ul>
+
+<h2 id="toc_25">Scriptural Encouragement</h2>
+
+<ul>
+<li>Gift of Teaching: <em>“Let him who teaches, teach”</em> (Rom. 12:7)</li>
+<li>Gift of Mercy: <em>“Let him show mercy, with cheerfulness”</em> (Rom. 12:8)</li>
+<li>Gift of Leadership: <em>“Let him who leads, do so with diligence”</em> (Rom. 12:8)</li>
+</ul>
+
+<h2 id="toc_26">Insights Generated</h2>
+
+<ul>
+<li>Strengths and relational tendencies based on gift</li>
+<li>Areas of fulfillment and potential burnout triggers</li>
+<li>How each gift complements others in community or church settings</li>
+<li>Suggested ministries, functions, or callings based on gifting profile</li>
+</ul>
+
+<a href="#assessment-modules">Back To Module List</a>
+
+<hr>
+
+<h1 id="toc_27">Module: Job Preference / Holland Code</h1>
+
+<h2 id="toc_28">Purpose</h2>
+
+<p>To help users identify vocational inclinations and natural career affinities based on Holland’s RIASEC model, aligning personality and motivation with occupational domains.</p>
+
+<h2 id="toc_29">Six Holland Types</h2>
+
+<ol>
+<li><strong>Realistic</strong> – Hands-on, tool-based, often outdoors or mechanical</li>
+<li><strong>Investigative</strong> – Analytical, scientific, problem-solving</li>
+<li><strong>Artistic</strong> – Creative, expressive, visual/spatial, intuitive</li>
+<li><strong>Social</strong> – Service-oriented, empathetic, relational</li>
+<li><strong>Enterprising</strong> – Persuasive, entrepreneurial, leadership-focused</li>
+<li><strong>Conventional</strong> – Organized, detail-oriented, data/system-focused</li>
+</ol>
+
+<h2 id="toc_30">Question Structure</h2>
+
+<ul>
+<li>4–6 questions per category (approx. 30–36 total)</li>
+<li>Interest-based and preference ranking format</li>
+<li>Optional: allow user to input previous Holland code test results</li>
+</ul>
+
+<h2 id="toc_31">Output</h2>
+
+<ul>
+<li>Ranked RIASEC profile (e.g. SIA: Social, Investigative, Artistic)</li>
+<li>Primary vocational orientation</li>
+<li>Secondary and tertiary strengths</li>
+<li>Recommended environments and roles</li>
+</ul>
+
+<h2 id="toc_32">Insights Generated</h2>
+
+<ul>
+<li>Career environments that best align with personality and gifting</li>
+<li>Natural preferences for types of tasks and work styles</li>
+<li>Vocational fit with other modules (e.g. motivational gifts + job preference)</li>
+<li>Spiritual implications of work and calling</li>
+</ul>
+
+<a href="#assessment-modules">Back To Module List</a>
+
+<hr>
+
+<h1 id="toc_33">Module: Spiritual Gifts (1 Corinthians 12)</h1>
+
+<h2 id="toc_34">Purpose</h2>
+
+<p>To help users identify manifestations of the Holy Spirit in their life—these are gifts distributed according to the Spirit&#39;s will for the edification of the church (1 Cor 12:7-11).</p>
+
+<h2 id="toc_35">Nine Gifts Profiled</h2>
+
+<ol>
+<li><strong>Word of Wisdom</strong></li>
+<li><strong>Word of Knowledge</strong></li>
+<li><strong>Faith</strong></li>
+<li><strong>Gifts of Healing</strong></li>
+<li><strong>Working of Miracles</strong></li>
+<li><strong>Prophecy</strong></li>
+<li><strong>Discerning of Spirits</strong></li>
+<li><strong>Different Kinds of Tongues</strong></li>
+<li><strong>Interpretation of Tongues</strong></li>
+</ol>
+
+<h2 id="toc_36">Question Structure</h2>
+
+<ul>
+<li>3–5 experiential and situational questions per gift (27–45 total)</li>
+<li>Scenarios include ministry contexts, private prayer, interpersonal interactions</li>
+<li>Includes questions to differentiate gifting from natural personality traits or motivational gifting</li>
+</ul>
+
+<h2 id="toc_37">Output</h2>
+
+<ul>
+<li>Strongest active spiritual gifts</li>
+<li>Emerging or latent gifts</li>
+<li>Situational sensitivity and Holy Spirit empowerment tendencies</li>
+</ul>
+
+<h2 id="toc_38">Insights Generated</h2>
+
+<ul>
+<li>Areas of spiritual authority or ministry activation</li>
+<li>Balance between power gifts, revelatory gifts, and utterance gifts</li>
+<li>Suggested steps for growth, submission, accountability, and discernment</li>
+<li>Encouragement for ongoing relationship with the Holy Spirit</li>
+</ul>
+
+<a href="#assessment-modules">Back To Module List</a>
+
+<hr>
+
+<h1 id="toc_39">Module: Fivefold Ministry Callings (Ephesians 4)</h1>
+
+<h2 id="toc_40">Purpose</h2>
+
+<p>To help individuals discern whether they are called to one or more of the Fivefold Ministry roles listed in Ephesians 4:11—given by Jesus &quot;to equip the saints for the work of ministry and to build up the body of Christ.&quot;</p>
+
+<h2 id="toc_41">Five Roles Profiled</h2>
+
+<ol>
+<li><strong>Apostle</strong> – Pioneer, strategist, and visionary leader called to plant and establish.</li>
+<li><strong>Prophet</strong> – Reveals God&#39;s heart, provides guidance, calls the church to holiness.</li>
+<li><strong>Evangelist</strong> – Passionate about sharing the gospel and leading people to Christ.</li>
+<li><strong>Pastor</strong> – Shepherd and nurturer, providing care, counsel, and community building.</li>
+<li><strong>Teacher</strong> – Deeply rooted in scripture, helping others grow in biblical knowledge.</li>
+</ol>
+
+<h2 id="toc_42">Question Structure</h2>
+
+<ul>
+<li>5–7 situational and reflective questions per role (approx. 30–35 total)</li>
+<li>Designed to reveal current fruit, natural gravitation, and spiritual authority</li>
+</ul>
+
+<h2 id="toc_43">Output</h2>
+
+<ul>
+<li>Primary Fivefold tendencies</li>
+<li>Secondary support roles</li>
+<li>Maturity level and readiness for ministry activation</li>
+</ul>
+
+<h2 id="toc_44">Insights Generated</h2>
+
+<ul>
+<li>Identification of potential equipping ministry areas</li>
+<li>Distinctions between calling, gift, and spiritual maturity</li>
+<li>Recommendations for training, mentoring, or ordination pathways</li>
+<li>Alignment with personality, sanctification stage, and spiritual gifting</li>
+</ul>
+
+<a href="#assessment-modules">Back To Module List</a>
+
+<hr>
+
+<h1 id="toc_45">Module: Birth Order &amp; Family Dynamics</h1>
+
+<h2 id="toc_46">Purpose</h2>
+
+<p>To assess the developmental impact of family structure, birth order, and blended household dynamics on personality, decision-making, and relational instincts.</p>
+
+<h2 id="toc_47">Areas Profiled</h2>
+
+<ul>
+<li>Functional birth order vs. biological birth order</li>
+<li>Role adoption in mixed/blended families</li>
+<li>Presence of half/step-siblings and parental dynamics</li>
+<li>Perceived family role (e.g., responsible one, peacekeeper, rebel)</li>
+<li>Impact of upbringing on leadership style, self-image, and emotional regulation</li>
+</ul>
+
+<h2 id="toc_48">Question Structure</h2>
+
+<ul>
+<li>8–12 questions with branching logic for step/blended family structures</li>
+<li>Includes options for skipped siblings, large age gaps, or de facto oldest/youngest roles</li>
+<li>Confirmation and tie-break logic for use in composite analysis</li>
+</ul>
+
+<h2 id="toc_49">Output</h2>
+
+<ul>
+<li>Inferred birth order category (e.g., Functional Firstborn, Youngest in Blended Family)</li>
+<li>Relational traits, role tendencies, and rule-following vs. risk-taking style</li>
+<li>Adjustment markers for conflict resolution, leadership pacing, and independence</li>
+</ul>
+
+<h2 id="toc_50">Insights Generated</h2>
+
+<ul>
+<li>How birth order amplifies or counterbalances other personality metrics</li>
+<li>Influence of blended family dynamics on stability and resilience</li>
+<li>Potential compensations or shifts due to trauma, maturity gaps, or early responsibilities</li>
+<li>Use in tie-break logic for middle-ground scoring in other modules</li>
+</ul>
+
+<a href="#assessment-modules">Back To Module List</a>
+
+<hr>
+
+<h1 id="toc_51">Module: Learning Styles (VARK &amp; Multiple Intelligences)</h1>
+
+<h2 id="toc_52">Purpose</h2>
+
+<p>To understand each user’s natural learning preferences and cognitive strengths, providing insight into how they best receive, process, and express knowledge—vital for discipleship, teaching, mentorship, and role training.</p>
+
+<h2 id="toc_53">Areas Profiled</h2>
+
+<ul>
+<li>VARK: Visual, Auditory, Reading/Writing, Kinesthetic modalities</li>
+<li>Multiple Intelligences: Linguistic, Logical-Mathematical, Musical, Bodily-Kinesthetic, Spatial, Interpersonal, Intrapersonal, Naturalistic</li>
+</ul>
+
+<h2 id="toc_54">Question Structure</h2>
+
+<ul>
+<li>16–24 questions randomized across both VARK and MI categories</li>
+<li>Users rate agreement or choose best-fit responses to contextual learning scenarios</li>
+</ul>
+
+<h2 id="toc_55">Output</h2>
+
+<ul>
+<li>Primary and secondary learning style preferences</li>
+<li>Top 2–3 multiple intelligences ranked by score</li>
+<li>Cross-linking to role suggestions (e.g., musical intelligence + pastoral calling → worship leader)</li>
+</ul>
+
+<h2 id="toc_56">Insights Generated</h2>
+
+<ul>
+<li>Effective spiritual formation strategies (e.g., tactile prayer, scripture visualization)</li>
+<li>Teaching/discipleship methods that suit the individual (e.g., group discussion vs. solo reading)</li>
+<li>Growth path recommendations using learning strengths</li>
+<li>Confirmation or challenge to perceived learning barriers</li>
+</ul>
+
+<a href="#assessment-modules">Back To Module List</a>
+
+<hr>
+
+<h1 id="toc_57">Module: Conflict Resolution Style</h1>
+
+<h2 id="toc_58">Purpose</h2>
+
+<p>To assess how individuals naturally respond to interpersonal tension and conflict, identifying strategies that promote peacemaking, truth-telling, reconciliation, or assertive boundary-setting. This module contributes to understanding leadership readiness, relational maturity, and team dynamics.</p>
+
+<h2 id="toc_59">Areas Profiled</h2>
+
+<ul>
+<li>Conflict engagement or avoidance patterns</li>
+<li>Preferred conflict strategy: Accommodating, Competing, Collaborating, Avoiding, Compromising</li>
+<li>Use of empathy, logic, or assertion in tension</li>
+<li>Recovery and reflection behaviors post-conflict</li>
+<li>Influence of trauma, attachment, or spiritual maturity on conflict style</li>
+</ul>
+
+<h2 id="toc_60">Question Structure</h2>
+
+<ul>
+<li>12–15 situational questions referencing both general and spiritually relevant conflict scenarios</li>
+<li>Includes emotional processing and behavioral follow-through options</li>
+</ul>
+
+<h2 id="toc_61">Output</h2>
+
+<ul>
+<li>Primary and secondary conflict resolution styles</li>
+<li>Strengths and liabilities of the preferred style</li>
+<li>Compatibility insights with other relational types</li>
+</ul>
+
+<h2 id="toc_62">Insights Generated</h2>
+
+<ul>
+<li>Relational health awareness and growth areas</li>
+<li>Role fit for leadership, counseling, mentorship, or team-based ministry</li>
+<li>Spiritual reflections on reconciling personality with Christlike peacemaking</li>
+<li>Cross-correlation with attachment style and trauma history</li>
+</ul>
+
+<a href="#assessment-modules">Back To Module List</a>
+
+<hr>
+
+<h1 id="toc_63">Module: Sanctification &amp; Spiritual Growth</h1>
+
+<h2 id="toc_64">Purpose</h2>
+
+<p>To evaluate where a person is in their walk with Christ and how they are maturing in faith, character, obedience, emotional resilience, and fruit of the Spirit. This module helps determine leadership readiness, mentoring or discipleship needs, and the spiritual implications of unresolved trauma, prolonged infancy, or accelerated growth due to suffering or divine intervention.</p>
+
+<h2 id="toc_65">Areas Profiled</h2>
+
+<ul>
+<li>New birth / salvation experience (date, clarity, transformation markers)</li>
+<li>Water and Spirit baptism (experiential knowledge and theological understanding)</li>
+<li>Spiritual hunger, prayer life, and time spent with Scripture</li>
+<li>Obedience to conviction, development of conscience, and moral decision-making</li>
+<li>Manifestation of fruit of the Spirit in relational life and inner posture</li>
+<li>Patterns of repentance, forgiveness, humility, and acceptance of correction</li>
+<li>Seasoned endurance under trial or spiritual opposition</li>
+<li>Stewardship of spiritual gifts and alignment with one’s call to serve the Body of Christ</li>
+</ul>
+
+<h2 id="toc_66">Question Structure</h2>
+
+<ul>
+<li>12–16 thoughtfully ordered questions assessing key maturity markers and experiential growth</li>
+<li>Includes milestone triggers (e.g., being Spirit-filled, first breakthrough, prophetic callings)</li>
+<li>Utilizes branching logic to identify stagnation, accelerated growth, or unhealed trauma interruptions</li>
+<li>Questions emphasize not only doctrinal affirmation but also character formation and discipleship patterns</li>
+</ul>
+
+<h2 id="toc_67">Output</h2>
+
+<ul>
+<li>Current growth stage, ranging from Seedling (new believer) to Rooted, Maturing, Fruit-bearing, and Reproducing (discipler or elder-level)</li>
+<li>Growth trajectory trend (Accelerating, Plateauing, Regressing, Cyclical)</li>
+<li>Red flags indicating lack of growth, healing prerequisites, overextension, or risk of pride (1 Tim 3:6)</li>
+</ul>
+
+<h2 id="toc_68">Insights Generated</h2>
+
+<ul>
+<li>Tiered insights aligned with spiritual maturity and recommended levels of leadership, teaching, or oversight</li>
+<li>Discipleship action steps matched to current stage with scriptural encouragements</li>
+<li>Growth blockers and spiritual accelerants tied to life seasons, trauma exposure, or inner vow patterns</li>
+<li>Cross-linking with other modules such as Timeline, Spiritual Gifts, Conflict Resolution, Trauma History, and Role Readiness</li>
+</ul>
+
+<a href="#assessment-modules">Back To Module List</a>
+
+<hr>
+
+<h1 id="toc_69">Module: Relationship &amp; Attachment Style</h1>
+
+<h2 id="toc_70">Purpose</h2>
+
+<p>To explore how early emotional bonding patterns, adult relational behaviors, and healing experiences shape a person&#39;s approach to intimacy, trust, vulnerability, and belonging. This module helps identify areas of relational strength, insecurity, avoidant tendencies, and the potential for healing and secure connection.</p>
+
+<h2 id="toc_71">Areas Profiled</h2>
+
+<ul>
+<li>Childhood bonding and emotional availability of primary caregivers</li>
+<li>Trust and vulnerability in adult relationships</li>
+<li>Reactions to conflict and emotional withdrawal or clinginess</li>
+<li>Fear of abandonment or smothering</li>
+<li>Degree of emotional self-regulation and co-regulation</li>
+<li>History of relational trauma, repair, and attachment reformation through Christ</li>
+</ul>
+
+<h2 id="toc_72">Question Structure</h2>
+
+<ul>
+<li>12–15 focused questions rooted in attachment theory and spiritual formation</li>
+<li>Covers both inward emotional posture and outward relational behavior</li>
+<li>Optional branch for those with known trauma history or disrupted attachment</li>
+<li>Uses both psychological and scriptural language to describe relational dynamics</li>
+</ul>
+
+<h2 id="toc_73">Output</h2>
+
+<ul>
+<li>Primary attachment style (Secure, Anxious, Avoidant, Disorganized)</li>
+<li>Relational healing status (In process, Restored, Stagnant, Unaware)</li>
+<li>Influence of attachment pattern on spiritual intimacy, church involvement, and ministry relationships</li>
+</ul>
+
+<h2 id="toc_74">Insights Generated</h2>
+
+<ul>
+<li>Interpretive guidance on how one’s attachment style may influence spiritual leadership, vulnerability in discipleship, or resistance to intimacy with God</li>
+<li>Identification of healing invitations or safe practices for building secure attachments</li>
+<li>Integration with trauma history, sanctification process, and emotional processing center (mind-gut-heart axis)</li>
+<li>Role fit considerations (e.g., shepherding, mentoring, counseling) based on relational maturity and healing trajectory</li>
+</ul>
+
+<a href="#assessment-modules">Back To Module List</a>
+
+<hr>
+
+<h1 id="toc_75">Module: Mind-Gut-Heart Axis (Emotional Processing Centers)</h1>
+
+<h2 id="toc_76">Purpose</h2>
+
+<p>To explore how individuals experience, interpret, and act upon emotions through the three primary centers of embodied awareness—mind (head), heart (chest), and gut (abdomen). These emotional and intuitive centers reflect distinct modes of decision-making, emotional regulation, and spiritual discernment, allowing for greater clarity in vocation, relational life, and spiritual growth.</p>
+
+<h2 id="toc_77">Areas Profiled</h2>
+
+<ul>
+<li>Default decision-making locus (thinking, feeling, sensing)</li>
+<li>Emotional expression and regulation center (verbal, somatic, emotive)</li>
+<li>Intuitive responses and moral compass orientation</li>
+<li>Bodily location of strong emotions (head pressure, chest tightness, gut churn)</li>
+<li>Frequency of trusting inner impressions versus logical analysis</li>
+<li>Spiritual discernment through body signals or convictions</li>
+</ul>
+
+<h2 id="toc_78">Question Structure</h2>
+
+<ul>
+<li>9–12 targeted questions spread across daily behavior, emotional experience, and reflective awareness</li>
+<li>Respondents describe which bodily region they most associate with “feeling things deeply,” reacting under stress, or sensing peace</li>
+<li>Includes questions like: “When making difficult decisions, do you go with your gut, your heart, or your head?”</li>
+<li>Multiple-choice and ranked-preference formats</li>
+</ul>
+
+<h2 id="toc_79">Output</h2>
+
+<ul>
+<li>Primary Emotional Center: Gut (instinctive), Heart (relational/emotional), or Head (analytical/intellectual)</li>
+<li>Secondary and tertiary tendencies, including situations in which alternate centers dominate</li>
+<li>Spiritual implications of emotional center (e.g., intuitive intercession vs. intellectual discernment)</li>
+</ul>
+
+<h2 id="toc_80">Insights Generated</h2>
+
+<ul>
+<li>How emotional center impacts relational dynamics, conflict resolution, and ministry style</li>
+<li>Correlations with other traits (e.g., gut-centered types may also exhibit high somatic awareness or trauma-triggered avoidance)</li>
+<li>Recommendations for growth and integration across underused centers</li>
+<li>Role fit recommendations: Gut-centered individuals may thrive in high-intensity settings; heart-centered in pastoral care; head-centered in teaching and strategy</li>
+</ul>
+
+<a href="#assessment-modules">Back To Module List</a>
+
+<hr>
+
+<h1 id="toc_81">Module: Somatic Awareness &amp; Movement Preferences</h1>
+
+<h2 id="toc_82">Purpose</h2>
+
+<p>To assess how individuals experience, interpret, and respond to bodily sensations, physical cues, and movement preferences as part of their emotional regulation, healing journey, and spiritual engagement. This module links somatic intelligence with psychological and spiritual development.</p>
+
+<h2 id="toc_83">Areas Profiled</h2>
+
+<ul>
+<li>Awareness of physical symptoms tied to stress or emotion</li>
+<li>Comfort with movement-based vs. stillness-based self-regulation</li>
+<li>Natural tendencies toward physical activity (e.g., walking, stretching, dance)</li>
+<li>Use of somatic practices in spiritual disciplines (e.g., laying prostrate, lifting hands, breath prayer)</li>
+<li>Relationship between body tension and emotional/relational state</li>
+</ul>
+
+<h2 id="toc_84">Question Structure</h2>
+
+<ul>
+<li>10–14 questions across emotional regulation, spiritual practices, trauma triggers, and recovery behaviors</li>
+<li>Multiple choice, frequency-based scales, and somatic word-association questions (&quot;Which part of your body tightens when...?&quot;)</li>
+</ul>
+
+<h2 id="toc_85">Output</h2>
+
+<ul>
+<li>Somatic awareness level: low, moderate, high</li>
+<li>Movement preference profile: stillness-focused, balance-seeking, or movement-driven</li>
+<li>Links to spiritual practices: kinesthetic worship, embodied prayer, breath awareness, etc.</li>
+</ul>
+
+<h2 id="toc_86">Insights Generated</h2>
+
+<ul>
+<li>Whether movement is a source of healing or dysregulation</li>
+<li>Recommended movement-based practices for recovery or spiritual growth (e.g., breathwork, walking prayer)</li>
+<li>Trauma-informed sensitivity indicators (e.g., body numbing, hyper-awareness)</li>
+<li>Contribution to spiritual gifting, recovery strategies, and role suitability (e.g., movement-based ministry, fitness-integrated discipleship)</li>
+</ul>
+
+<a href="#assessment-modules">Back To Module List</a>
+
+<hr>
+
+<h1 id="toc_87">Module: Temperament &amp; Genetic Traits</h1>
+
+<h2 id="toc_88">Purpose</h2>
+
+<p>To evaluate baseline biological predispositions that influence personality expression, sensory processing, energy regulation, emotional sensitivity, and lifestyle preferences. This module helps distinguish between nature and nurture factors and supports clearer interpretation of personality, gifting, and behavioral patterns.</p>
+
+<h2 id="toc_89">Areas Profiled</h2>
+
+<ul>
+<li>Circadian preference (early bird vs. night owl)</li>
+<li>Baseline energy level (high drive, steady, low stamina)</li>
+<li>Sensory sensitivity (e.g., noise, light, temperature)</li>
+<li>Stress tolerance and reactivity</li>
+<li>Metabolism type and physical recovery speed</li>
+<li>Introversion/extroversion as a biological trait</li>
+<li>Emotional reactivity baseline (hot/cold wiring)</li>
+</ul>
+
+<h2 id="toc_90">Question Structure</h2>
+
+<ul>
+<li>10–15 questions covering daily rhythms, energetic fluctuations, stimulus response, sensory preferences, and recovery needs</li>
+<li>Includes self-identification questions and behavioral observations (e.g., &quot;How do you feel after 6 hours of social interaction?&quot;)</li>
+</ul>
+
+<h2 id="toc_91">Output</h2>
+
+<ul>
+<li>Core temperament baseline (e.g., sensory sensitive, high-energy, introverted)</li>
+<li>Trait clusters that inform other areas of the profile (e.g., high reactivity may overlap with trauma sensitivity)</li>
+<li>Integration into other metrics (e.g., scoring modifiers for conflict style, learning needs, or spiritual practice preferences)</li>
+</ul>
+
+<h2 id="toc_92">Insights Generated</h2>
+
+<ul>
+<li>Role of inborn traits in shaping daily rhythms, ideal work conditions, and relational energy</li>
+<li>Recommendations for stewardship of energy, sensitivity, and sensory needs in daily life and spiritual discipline</li>
+<li>Caveats when interpreting personality and gifting tests (e.g., &quot;Trauma or temperament?&quot;)</li>
+<li>Influence on healing timelines and movement-based therapies</li>
+<li>Weight modifiers for composite profile scoring</li>
+</ul>
+
+<a href="#assessment-modules">Back To Module List</a>
+
+<hr>
+
+<h1 id="toc_93">Module: Trauma History &amp; Inner Vows</h1>
+
+<h2 id="toc_94">Purpose</h2>
+
+<p>To assess the presence, severity, and developmental timing of personal trauma, and to explore any self-directed beliefs (inner vows) formed in reaction to pain, rejection, or fear. These patterns can distort personality expression, spiritual perception, and relational behavior. This module is designed to surface redemptive insights and support healing pathways through prayer, pastoral care, or therapeutic work.</p>
+
+<h2 id="toc_95">Areas Profiled</h2>
+
+<ul>
+<li>Types of trauma experienced (abuse, neglect, abandonment, accidents, spiritual harm)</li>
+<li>Developmental timing of trauma (childhood, adolescence, adulthood)</li>
+<li>Frequency and duration of traumatic events</li>
+<li>Inner vows such as “I’ll never trust anyone again” or “I have to take care of everything myself”</li>
+<li>Indicators of unresolved trauma (flashbacks, body memory, emotional shutdown)</li>
+<li>Impact on relational style, emotional reactivity, personality expression, and spiritual growth</li>
+</ul>
+
+<h2 id="toc_96">Question Structure</h2>
+
+<ul>
+<li>Trauma Exposure Questions: Yes/No and severity-scaled items across 10–15 trauma types</li>
+<li>Inner Vow Prompts: Users select or write statements they may have internalized</li>
+<li>Healing Status Questions: Yes/No reflections on healing progress, forgiveness, and emotional processing</li>
+<li>Includes milestone-tagging by life stage and trauma triggers (timeline integration)</li>
+</ul>
+
+<h2 id="toc_97">Output</h2>
+
+<ul>
+<li>Trauma exposure profile: low, moderate, or high</li>
+<li>Dominant trauma categories and affected life stages</li>
+<li>Inner vow identification and linked impact areas (trust, independence, perfectionism, etc.)</li>
+<li>Healing readiness and active restoration status</li>
+</ul>
+
+<h2 id="toc_98">Insights Generated</h2>
+
+<ul>
+<li>Correlations between trauma and personality shifts (e.g., extrovert becoming reserved post-trauma)</li>
+<li>Impact on spiritual development, attachment style, conflict patterns, and vocational risk aversion</li>
+<li>Suggested healing modalities: counseling, inner healing prayer, forgiveness work, somatic recovery</li>
+<li>Redemptive narrative reflections: how God is restoring the broken areas</li>
+<li>Adjusted role or leadership suggestions to protect from retraumatization or premature pressure</li>
+<li>Composite scoring modifiers applied across spiritual maturity, emotional regulation, and relational capacity</li>
+</ul>
+
+<a href="#assessment-modules">Back To Module List</a>
+
+<hr>
+
+<h1 id="toc_99">Module: Healing History &amp; Restoration Pathways</h1>
+
+<h2 id="toc_100">Purpose</h2>
+
+<p>To document a user’s journey of healing—emotionally, spiritually, relationally, and physically—especially in response to trauma or wounding. This module supports redemptive re-narration and affirms signs of maturity, forgiveness, and integration. It also guides users in reflecting on how God has restored or is restoring areas of pain.</p>
+
+<h2 id="toc_101">Areas Profiled</h2>
+
+<ul>
+<li>Key healing milestones: breakthroughs in forgiveness, freedom from bitterness, emotional release, spiritual renewal</li>
+<li>Restoration activities: counseling, pastoral care, deliverance, inner healing ministries, prayer encounters, etc.</li>
+<li>Role of Scripture, worship, community, and the Holy Spirit in facilitating healing</li>
+<li>Level of peace or closure regarding major past traumas</li>
+<li>Transformation markers: increased relational openness, decreased anxiety/reactivity, healthier boundaries</li>
+</ul>
+
+<h2 id="toc_102">Question Structure</h2>
+
+<ul>
+<li>Milestone-triggering questions (e.g., &quot;Have you ever experienced a breakthrough in forgiveness?&quot;)</li>
+<li>Simple Yes/No format for completed restoration activities</li>
+<li>Optional notes for users to reflect on how restoration occurred</li>
+</ul>
+
+<h2 id="toc_103">Output</h2>
+
+<ul>
+<li>Healing history log mapped to timeline view</li>
+<li>Restoration depth score: In Process, Partially Restored, Significantly Restored, Fully Restored</li>
+<li>Highlighted themes of God&#39;s redemptive work</li>
+<li>Role readiness booster if certain thresholds of healing and maturity are met</li>
+</ul>
+
+<h2 id="toc_104">Insights Generated</h2>
+
+<ul>
+<li>Affirms maturity and readiness in areas once wounded</li>
+<li>Connects healing moments to leadership eligibility, spiritual growth, and relational trustworthiness</li>
+<li>Offers redemptive re-narratives of identity, purpose, and destiny</li>
+<li>Provides encouragement and hope for further healing</li>
+<li>Refines trauma weighting in the composite scoring system</li>
+</ul>
+
+<a href="#assessment-modules">Back To Module List</a>
+
+<hr>
+
+<h1 id="toc_105">Module: Timeline &amp; Spiritual Milestones</h1>
+
+<h2 id="toc_106">Purpose</h2>
+
+<p>To provide users with a visually interactive way to chronicle key spiritual moments in their life journey, such as salvation, baptism, callings, giftings, breakthroughs, crises, and turning points. The timeline helps clarify spiritual progression, life stage shifts, and the timing of major identity-shaping events.</p>
+
+<h2 id="toc_107">Areas Profiled</h2>
+
+<ul>
+<li>Age of salvation / new birth in Christ</li>
+<li>Water baptism and Spirit baptism milestones</li>
+<li>Calling experiences (e.g., ministry, leadership, missions)</li>
+<li>Major spiritual encounters or turning points</li>
+<li>Times of spiritual crisis, repentance, or rededication</li>
+<li>Gift discovery and activation events</li>
+<li>Seasons of revival, spiritual dryness, or renewed purpose</li>
+</ul>
+
+<h2 id="toc_108">Question Structure</h2>
+
+<ul>
+<li>Trigger questions embedded across other assessments (e.g., “When did you first feel called to ministry?”)</li>
+<li>Standalone milestone prompt list with optional date or age entry</li>
+<li>Drag-and-drop event builder with timeline visualization</li>
+<li>Dropdown menus for type of event and accompanying notes field</li>
+</ul>
+
+<h2 id="toc_109">Output</h2>
+
+<ul>
+<li>Horizontal scrollable milestone timeline</li>
+<li>Categorized life stage events with icons and labels</li>
+<li>Visual clustering of formative seasons</li>
+<li>Spiritual maturity patterns and key turning points</li>
+</ul>
+
+<h2 id="toc_110">Insights Generated</h2>
+
+<ul>
+<li>Identification of key growth periods or spiritual plateaus</li>
+<li>Highlighted linkages between events (e.g., trauma → healing → calling)</li>
+<li>Readiness indicators for deeper responsibility or leadership</li>
+<li>Cross-analysis with healing history, sanctification, and gift activation timing</li>
+<li>Alignment of role suggestions to actual milestones and life seasons</li>
+</ul>
+
+<a href="#assessment-modules">Back To Module List</a>
+
+<hr>
+
+<h1 id="toc_111">Module: Optional Enneagram Input</h1>
+
+<h2 id="toc_112">Purpose</h2>
+
+<p>To allow users to optionally input their known Enneagram type and wing (e.g., 4w5) for additional interpretive insight. While PsycheGenesis does not test for Enneagram type directly, it honors its value as a supplemental lens for understanding motivation, inner fears/desires, and character formation. Insights are used in a supportive role for narrative synthesis and spiritual formation mapping.</p>
+
+<h2 id="toc_113">Areas Profiled</h2>
+
+<ul>
+<li>Enneagram core type (1–9)</li>
+<li>Wing preference (optional, 1–9)</li>
+<li>Optional subtypes (if provided) such as self-preserving, social, or sexual</li>
+<li>Confirmation of prior test source or self-identified reflection</li>
+</ul>
+
+<h2 id="toc_114">Input Structure</h2>
+
+<ul>
+<li>Dropdown menu for type selection (1–9)</li>
+<li>Dropdown for wing (1–9 or &quot;None&quot;)</li>
+<li>Optional free-text field for source or subtype</li>
+<li>Optional toggle to enable/disable Enneagram-based insights</li>
+</ul>
+
+<h2 id="toc_115">Output</h2>
+
+<ul>
+<li>Interpretive profile linked to type and wing</li>
+<li>Spiritual growth strengths and cautions based on Enneagram lens</li>
+<li>Integration into redemptive narrative (e.g., Type 6 may struggle with fear but shows loyalty in sanctification)</li>
+<li>Suggestions for inner healing, spiritual disciplines, or prayer focus areas that complement PsycheGenesis insights</li>
+</ul>
+
+<h2 id="toc_116">Insights Generated</h2>
+
+<ul>
+<li>Enhanced narrative color for inner motivational struggles and core longings</li>
+<li>Cross-check with attachment style and trauma indicators (e.g., Type 9s may suppress conflict)</li>
+<li>Affirmation of God’s redemptive use of temperament, even when shaped through past wounds</li>
+<li>Optional spiritual growth paths tailored to each type’s sanctification tendencies</li>
+</ul>
+
+<a href="#assessment-modules">Back To Module List</a>
+
+<hr>
+
+<h1 id="toc_117">Module: Spiritual Warfare Awareness</h1>
+
+<h2 id="toc_118">Purpose</h2>
+
+<p>To assess the user&#39;s understanding, sensitivity, and responsiveness to spiritual warfare as a component of Christian life and leadership. This includes awareness of spiritual authority, discernment of spirits, and the experience of spiritual battle across mental, emotional, physical, and relational domains.</p>
+
+<h2 id="toc_119">Areas Profiled</h2>
+
+<ul>
+<li>Knowledge of biblical spiritual warfare (Eph 6, 2 Cor 10, etc.)</li>
+<li>Sensitivity to spiritual atmospheres, oppression, and demonic influence</li>
+<li>Experience with intercession, deliverance, fasting, and standing firm in trials</li>
+<li>Understanding of authority in Christ and protection through the armor of God</li>
+<li>Past experiences of spiritual attack or supernatural breakthrough</li>
+</ul>
+
+<h2 id="toc_120">Question Structure</h2>
+
+<ul>
+<li>Scaled self-assessment items (e.g., “I can sense spiritual oppression in places or people”)</li>
+<li>Experience-based questions (e.g., “Have you ever prayed for someone’s deliverance?”)</li>
+<li>Situational reflection items (e.g., “How do you respond during seasons of spiritual attack?”)</li>
+</ul>
+
+<h2 id="toc_121">Output</h2>
+
+<ul>
+<li>Spiritual warfare sensitivity profile (Unaware, Aware, Active, Equipped)</li>
+<li>Key areas of discernment and strength (intercession, prophetic alertness, deliverance prayer)</li>
+<li>Suggested areas for growth or education</li>
+</ul>
+
+<h2 id="toc_122">Insights Generated</h2>
+
+<ul>
+<li>Readiness for ministry in high-spiritual-conflict contexts</li>
+<li>Need for discipleship in spiritual authority or protection</li>
+<li>Correlation with giftings (e.g., prophetic, intercessory, apostolic)</li>
+<li>Recommendations for mentorship, study, or training in warfare and discernment</li>
+</ul>
+
+<a href="#assessment-modules">Back To Module List</a>
+
+<hr>
+
+<h1 id="toc_123">Module: Heart Burden &amp; Calling</h1>
+
+<h2 id="toc_124">Purpose</h2>
+
+<ul>
+<li>Surface and confirm Holy Spirit–given burdens and callings</li>
+<li>Clarify emotional/spiritual passion that may guide ministry or vocation</li>
+<li>Strengthen connection between personal experience, inner healing, and missional direction</li>
+<li>Provide weight to role recommendations and ministry alignment</li>
+</ul>
+
+<h2 id="toc_125">Areas Profiled</h2>
+
+<ul>
+<li>Inner Healing &amp; Restoration</li>
+<li>Prophetic Intercession</li>
+<li>Worship &amp; Creative Expression</li>
+<li>Evangelism &amp; Souls</li>
+<li>Teaching &amp; Discipleship</li>
+<li>Justice &amp; Mercy</li>
+<li>Children &amp; Next Generation</li>
+<li>Marketplace Transformation</li>
+<li>Global Missions</li>
+<li>Apostolic Building / Strategy</li>
+</ul>
+
+<h2 id="toc_126">Question Structure</h2>
+
+<ul>
+<li>Forced-choice primary burden selection</li>
+<li>Optional ranked secondary burdens (2–4 max)</li>
+<li>Each presented with a brief description and sample ministry pathways</li>
+</ul>
+
+<h2 id="toc_127">Output</h2>
+
+<ul>
+<li>Primary burden scored highest (30–40% influence in role suggestions)</li>
+<li>Secondary burdens scored lower (15–25% total influence)</li>
+<li>Insight template includes narrative context, e.g., “You carry a deep burden for justice…”</li>
+</ul>
+
+<h2 id="toc_128">Insights Generated</h2>
+
+<ul>
+<li>Integrated into Role Recommendation Engine</li>
+<li>Compared with maturity level and trauma healing stage</li>
+<li>Profiled in Admin Dashboard for ministry planning</li>
+<li>Scriptural anchors include Nehemiah 2:12, Psalm 37:4, Jeremiah 20:9, Romans 9:2–3</li>
+</ul>
+
+<a href="#assessment-modules">Back To Module List</a>
+
+
+<script type="text/javascript">
+var _self="undefined"!=typeof window?window:"undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?self:{},Prism=function(){var e=/\blang(?:uage)?-(\w+)\b/i,t=0,n=_self.Prism={util:{encode:function(e){return e instanceof a?new a(e.type,n.util.encode(e.content),e.alias):"Array"===n.util.type(e)?e.map(n.util.encode):e.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/\u00a0/g," ")},type:function(e){return Object.prototype.toString.call(e).match(/\[object (\w+)\]/)[1]},objId:function(e){return e.__id||Object.defineProperty(e,"__id",{value:++t}),e.__id},clone:function(e){var t=n.util.type(e);switch(t){case"Object":var a={};for(var r in e)e.hasOwnProperty(r)&&(a[r]=n.util.clone(e[r]));return a;case"Array":return e.map&&e.map(function(e){return n.util.clone(e)})}return e}},languages:{extend:function(e,t){var a=n.util.clone(n.languages[e]);for(var r in t)a[r]=t[r];return a},insertBefore:function(e,t,a,r){r=r||n.languages;var l=r[e];if(2==arguments.length){a=arguments[1];for(var i in a)a.hasOwnProperty(i)&&(l[i]=a[i]);return l}var o={};for(var s in l)if(l.hasOwnProperty(s)){if(s==t)for(var i in a)a.hasOwnProperty(i)&&(o[i]=a[i]);o[s]=l[s]}return n.languages.DFS(n.languages,function(t,n){n===r[e]&&t!=e&&(this[t]=o)}),r[e]=o},DFS:function(e,t,a,r){r=r||{};for(var l in e)e.hasOwnProperty(l)&&(t.call(e,l,e[l],a||l),"Object"!==n.util.type(e[l])||r[n.util.objId(e[l])]?"Array"!==n.util.type(e[l])||r[n.util.objId(e[l])]||(r[n.util.objId(e[l])]=!0,n.languages.DFS(e[l],t,l,r)):(r[n.util.objId(e[l])]=!0,n.languages.DFS(e[l],t,null,r)))}},plugins:{},highlightAll:function(e,t){var a={callback:t,selector:'code[class*="language-"], [class*="language-"] code, code[class*="lang-"], [class*="lang-"] code'};n.hooks.run("before-highlightall",a);for(var r,l=a.elements||document.querySelectorAll(a.selector),i=0;r=l[i++];)n.highlightElement(r,e===!0,a.callback)},highlightElement:function(t,a,r){for(var l,i,o=t;o&&!e.test(o.className);)o=o.parentNode;o&&(l=(o.className.match(e)||[,""])[1],i=n.languages[l]),t.className=t.className.replace(e,"").replace(/\s+/g," ")+" language-"+l,o=t.parentNode,/pre/i.test(o.nodeName)&&(o.className=o.className.replace(e,"").replace(/\s+/g," ")+" language-"+l);var s=t.textContent,u={element:t,language:l,grammar:i,code:s};if(!s||!i)return n.hooks.run("complete",u),void 0;if(n.hooks.run("before-highlight",u),a&&_self.Worker){var c=new Worker(n.filename);c.onmessage=function(e){u.highlightedCode=e.data,n.hooks.run("before-insert",u),u.element.innerHTML=u.highlightedCode,r&&r.call(u.element),n.hooks.run("after-highlight",u),n.hooks.run("complete",u)},c.postMessage(JSON.stringify({language:u.language,code:u.code,immediateClose:!0}))}else u.highlightedCode=n.highlight(u.code,u.grammar,u.language),n.hooks.run("before-insert",u),u.element.innerHTML=u.highlightedCode,r&&r.call(t),n.hooks.run("after-highlight",u),n.hooks.run("complete",u)},highlight:function(e,t,r){var l=n.tokenize(e,t);return a.stringify(n.util.encode(l),r)},tokenize:function(e,t){var a=n.Token,r=[e],l=t.rest;if(l){for(var i in l)t[i]=l[i];delete t.rest}e:for(var i in t)if(t.hasOwnProperty(i)&&t[i]){var o=t[i];o="Array"===n.util.type(o)?o:[o];for(var s=0;s<o.length;++s){var u=o[s],c=u.inside,g=!!u.lookbehind,h=!!u.greedy,f=0,d=u.alias;u=u.pattern||u;for(var p=0;p<r.length;p++){var m=r[p];if(r.length>e.length)break e;if(!(m instanceof a)){u.lastIndex=0;var y=u.exec(m),v=1;if(!y&&h&&p!=r.length-1){var b=r[p+1].matchedStr||r[p+1],k=m+b;if(p<r.length-2&&(k+=r[p+2].matchedStr||r[p+2]),u.lastIndex=0,y=u.exec(k),!y)continue;var w=y.index+(g?y[1].length:0);if(w>=m.length)continue;var _=y.index+y[0].length,P=m.length+b.length;if(v=3,P>=_){if(r[p+1].greedy)continue;v=2,k=k.slice(0,P)}m=k}if(y){g&&(f=y[1].length);var w=y.index+f,y=y[0].slice(f),_=w+y.length,S=m.slice(0,w),O=m.slice(_),j=[p,v];S&&j.push(S);var A=new a(i,c?n.tokenize(y,c):y,d,y,h);j.push(A),O&&j.push(O),Array.prototype.splice.apply(r,j)}}}}}return r},hooks:{all:{},add:function(e,t){var a=n.hooks.all;a[e]=a[e]||[],a[e].push(t)},run:function(e,t){var a=n.hooks.all[e];if(a&&a.length)for(var r,l=0;r=a[l++];)r(t)}}},a=n.Token=function(e,t,n,a,r){this.type=e,this.content=t,this.alias=n,this.matchedStr=a||null,this.greedy=!!r};if(a.stringify=function(e,t,r){if("string"==typeof e)return e;if("Array"===n.util.type(e))return e.map(function(n){return a.stringify(n,t,e)}).join("");var l={type:e.type,content:a.stringify(e.content,t,r),tag:"span",classes:["token",e.type],attributes:{},language:t,parent:r};if("comment"==l.type&&(l.attributes.spellcheck="true"),e.alias){var i="Array"===n.util.type(e.alias)?e.alias:[e.alias];Array.prototype.push.apply(l.classes,i)}n.hooks.run("wrap",l);var o="";for(var s in l.attributes)o+=(o?" ":"")+s+'="'+(l.attributes[s]||"")+'"';return"<"+l.tag+' class="'+l.classes.join(" ")+'" '+o+">"+l.content+"</"+l.tag+">"},!_self.document)return _self.addEventListener?(_self.addEventListener("message",function(e){var t=JSON.parse(e.data),a=t.language,r=t.code,l=t.immediateClose;_self.postMessage(n.highlight(r,n.languages[a],a)),l&&_self.close()},!1),_self.Prism):_self.Prism;var r=document.currentScript||[].slice.call(document.getElementsByTagName("script")).pop();return r&&(n.filename=r.src,document.addEventListener&&!r.hasAttribute("data-manual")&&document.addEventListener("DOMContentLoaded",n.highlightAll)),_self.Prism}();"undefined"!=typeof module&&module.exports&&(module.exports=Prism),"undefined"!=typeof global&&(global.Prism=Prism);
+</script>
+
+
+</body>
+
+<footer>
+  Copyright &copy; 2025 Jacob Jackson
+</footer>
+
+</html>
